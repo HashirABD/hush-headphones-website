@@ -2,6 +2,8 @@
 
 **Silence, re-engineered.** An editorial scrollytelling landing page for flagship wireless headphones, driven by a 240-frame HTML5 Canvas explosion and reassembly sequence.
 
+**Live Demo:** [https://hush-headphones-website.vercel.app](https://hush-headphones-website.vercel.app)
+
 ## Overview
 
 Hush is a dark-mode product showcase that combines cinematic scroll choreography with precision engineering storytelling. As the visitor scrolls down a `620vh` sticky stage, a pair of matte-black wireless headphones transitions from an assembled hero shot into a 240-frame 3D disassembly sequence, pauses on a floating technical diagram with sequential component callouts, and smoothly reassembles into a final call to action with an interactive finish configurator.
@@ -103,6 +105,8 @@ npm run lint
 > **Asset Optimization Tip**: The current 240 JPEG frames total ~5.43 MB (~23 KB/frame), which loads quickly and stays well under GitHub's 100 MB per-file limit. If you upgrade to 2K/4K frames in the future, batch-converting them to `.webp` can reduce transfer weight further without visible banding.
 
 ## Deployment (Vercel)
+
+The live site is hosted on Vercel at [https://hush-headphones-website.vercel.app](https://hush-headphones-website.vercel.app).
 
 1. Push the repository to GitHub on the `main` branch.
 2. Import the repository in [Vercel](https://vercel.com) (`Framework Preset: Next.js`).
